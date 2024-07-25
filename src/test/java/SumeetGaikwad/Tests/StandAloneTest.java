@@ -21,6 +21,8 @@ public class StandAloneTest {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		String Pname="ZARA COAT 3";
+
+                 //comments
 		driver.get("https://rahulshettyacademy.com/client/");
 		LandingPage lp=new LandingPage(driver);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
